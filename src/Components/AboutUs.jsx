@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Rectangle27 from '../../public/images/Rectangle 27.png';
 import Rectangle26 from '../../public/images/Rectangle 26.png';
@@ -9,6 +10,7 @@ import register from '../../public/images/icons/register.png';
 import knowledge from '../../public/images/icons/knowledge.png';
 import priceLabel from '../../public/images/icons/price-label.png';
 import hourSupport from '../../public/images/icons/24-hours-support.png';
+
 
 
 
@@ -85,6 +87,10 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </section>
+
+            <section>
+                <Footer></Footer>
+            </section>    
         </div>
     );
 };

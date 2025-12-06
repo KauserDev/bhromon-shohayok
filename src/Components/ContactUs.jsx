@@ -1,4 +1,5 @@
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 import Contactus from "../../public/images/Contactus.png";
 
@@ -91,6 +92,10 @@ const ContactUs = () => {
                     </div>
                     </div>
                 </div>
+            </section>
+
+            <section>
+                <Footer></Footer>
             </section>
         </div>
     );

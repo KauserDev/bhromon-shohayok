@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
 import { useState } from 'react';
+import Footer from "../Components/Footer";
 
 
 
@@ -207,6 +208,11 @@ const DestinationDetails = () => {
             </div>
         </div>
             <BookingModal />
+
+
+            <section>
+                <Footer></Footer>
+            </section>
         </div>
     );
 };
